@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   eigen_conversions
   roscpp
   rosconsole
+  manipulation_msgs
 )
 
 catkin_package(
