@@ -6,7 +6,7 @@ This is the new unified repository for MoveIt! code. For more information about 
 
 Travis - Continuous Integration | Coveralls - Coverage
 ------------------------------- | --------------------
-[![Build Status](https://travis-ci.org/davetcoleman/moveit.svg)](https://travis-ci.org/davetcoleman/moveit) | [![Coverage Status](https://coveralls.io/repos/github/davetcoleman/moveit/badge.svg?branch=kinetic-devel)](https://coveralls.io/github/davetcoleman/moveit?branch=kinetic-devel)
+[![Build Status](https://travis-ci.org/davetcoleman/moveit.svg)](https://travis-ci.org/davetcoleman/moveit) | [![Coverage Status](https://coveralls.io/repos/github/davetcoleman/moveit/badge.svg?branch=kinetic-devel)](https://coveralls.io/github/orajput/moveit?branch=kinetic-devel)
 
 ROS Buildfarm | Trusty Devel Source | AMD64 Trusty Debian
 ------------- | ------------------- | -------------------
@@ -30,7 +30,7 @@ moveit_commander | [![Build Status](http://build.ros.org/buildStatus/icon?job=Js
 
 ## About The Merged Repos
 
-The automated script for merging repos is located [here](https://github.com/davetcoleman/moveit_merge/tree/master). To copy your code changes on your own machine into the same unified structure, simply copy the previously separated packages as subfolders in this new unified repository.
+The automated script for merging repos is located [here](https://github.com/orajput/moveit_merge/tree/master). To copy your code changes on your own machine into the same unified structure, simply copy the previously separated packages as subfolders in this new unified repository.
 
 Currently this repo build in Jade but will soon build in Kinetic
 
@@ -49,7 +49,7 @@ To build this package in a new workspace:  TODO switch to kinetic
     mkdir -p ws_moveit/src
     cd ws_moveit/src
     wstool init .
-    wstool merge https://raw.githubusercontent.com/davetcoleman/moveit/kinetic-devel/moveit.rosinstall
+    wstool merge https://raw.githubusercontent.com/orajput/moveit/kinetic-devel/moveit.rosinstall
     wstool update
     rosdep install --from-paths . --ignore-src --rosdistro jade
     cd ..
