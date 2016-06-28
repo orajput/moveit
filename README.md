@@ -43,7 +43,7 @@ Currently this repo build in Jade but will soon build in Kinetic
 
 ### Build from Source
 
-To build this package in a new workspace:  TODO switch to kinetic
+To build this package in a new workspace:
 
     mkdir -p ws_moveit/src
     cd ws_moveit/src
@@ -51,6 +51,7 @@ To build this package in a new workspace:  TODO switch to kinetic
     wstool merge https://raw.githubusercontent.com/orajput/moveit/kinetic-devel/moveit.rosinstall
     wstool update
     rosdep install --from-paths . --ignore-src --rosdistro kinetic
+    # In ROS Kinetic and Ubuntu 16.04, the above command produces an error 'moveit_commander: No definition of [python-pyassimp] for OS version [xenial]'. Run 'sudo apt-get install python-pyassimp'. However, this error will continue to  persist. 
     cd ..
     catkin build
 
