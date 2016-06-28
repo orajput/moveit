@@ -39,8 +39,7 @@ Currently this repo build in Jade but will soon build in Kinetic
 ### Ubuntu Debian
 
 > Note: this package has not been released yet
-
-    sudo apt-get install ros-kinetic-moveit-desktop-full
+> otherwise use: sudo apt-get install ros-kinetic-moveit-desktop-full
 
 ### Build from Source
 
@@ -51,7 +50,7 @@ To build this package in a new workspace:  TODO switch to kinetic
     wstool init .
     wstool merge https://raw.githubusercontent.com/orajput/moveit/kinetic-devel/moveit.rosinstall
     wstool update
-    rosdep install --from-paths . --ignore-src --rosdistro jade
+    rosdep install --from-paths . --ignore-src --rosdistro kinetic
     cd ..
     catkin build
 
