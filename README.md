@@ -58,6 +58,26 @@ To build this package in a new workspace:  TODO switch to kinetic
 
 A Docker container is available for testing in [moveit_docker](https://github.com/davetcoleman/moveit_docker)
 
+## Latest MoveIt! Branches (some may not be Kinetic yet)
+
+Repo                                | Latest Branch
+----------------------------------- | --------------------------------------------------
+core                                | kinetic-devel-synced (davetcoleman)
+ros                                 | cbrew_warehouse_ros_refactor-fixed2 (davetcoleman)
+planners                            | kinetic-devel-cpp11 (davetcoleman)
+plugins                             | jade-devel
+setup_assistant                     | jade-devel
+commander                           | jade-devel
+ikfast                              | kinetic-devel
+resources                           | master
+experimental                        | master
+docs                                | kinetic-devel
+msgs                                | jade-devel
+srdfdom                             | indigo-devel
+warehouse_ros                       | jade-devel
+manipulation_msgs                   | hydro-devel
+household_objects_database_msgs     | hydro-devel
+
 ## Contribute
 
 Please send PRs for new helper functions, fixes, etc!
