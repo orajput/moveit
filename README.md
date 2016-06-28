@@ -32,7 +32,7 @@ moveit_commander | [![Build Status](http://build.ros.org/buildStatus/icon?job=Js
 
 The automated script for merging repos is located [here](https://github.com/orajput/moveit_merge/tree/master). To copy your code changes on your own machine into the same unified structure, simply copy the previously separated packages as subfolders in this new unified repository.
 
-Currently this repo build in Jade but will soon build in Kinetic
+Currently, this repo builds successfully in Kinetic.
 
 ## Install
 
